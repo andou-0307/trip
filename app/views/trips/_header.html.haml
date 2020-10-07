@@ -6,9 +6,6 @@
     
   %nav
     %ul.main-nav
-      %li.main-nav_a
-        投稿一覧
-      %li.main-nav_a
-        投稿する
-      %li.main-nav_a
-        ログイン
+      %li= link_to '投稿一覧', '/', class: "main-nav_a"
+      %li= link_to '投稿する', '/', class: "main-nav_a"
+      %li= link_to 'ログイン', '/', class: "main-nav_a"
