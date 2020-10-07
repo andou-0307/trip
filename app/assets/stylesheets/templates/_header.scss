@@ -1,0 +1,36 @@
+.image1 {
+  width: 75px;
+  height: 75px;
+  margin-bottom: 15px;
+}
+
+.image2 {
+  width: 250px;
+  height: 100px;
+}
+
+.main-nav {
+  display: flex;
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  margin-top: 34px;
+  &_a {
+    color: #432;
+  }
+}
+
+.main-nav li {
+  margin-left: 36px;
+}
+
+
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.wrapper {
+  max-width: 1400px;
+  margin: 0 auto;
+}
